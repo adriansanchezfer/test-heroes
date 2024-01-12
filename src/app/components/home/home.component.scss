@@ -1,0 +1,68 @@
+.container {
+  margin-top: 16px;
+}
+
+.input-container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 4px;
+}
+.input {
+  min-width: 320px;
+}
+
+mat-icon:hover {
+  cursor: pointer;
+}
+
+.container-tabla {
+
+  border: 1px solid lightgrey;
+ 
+  mat-icon {
+    padding: 2px;
+    color: grey;
+  }
+}
+.table-row {
+  height: 10px !important;
+}
+.table-header {
+  font-size: 16px;
+  background-color: rgba(211, 211, 211, 0.37);
+  height: 30px;
+}
+.mat-column-pais {
+  width: 20%;
+}
+.mat-column-nombre {
+  width: 30%;
+}
+.mat-column-edad {
+  width: 30%;
+}
+.mat-column-edad {
+  width: 10%;
+}
+.mat-column-acciones {
+  width: 20%;
+}
+
+.table{
+  width:100%
+}
+
+
+.loading{
+  position:absolute;
+  top:0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 4343;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
